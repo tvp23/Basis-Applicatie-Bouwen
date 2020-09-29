@@ -29,6 +29,7 @@ form
 
 input.Username
 {
+    text-size-adjust: 20px;
     margin-top: 50px;
     color:white;
     width: 350px;
@@ -58,6 +59,7 @@ input.Username:focus
 
 input.Password
 {
+    text-size-adjust: 20px;
     margin-top: 20px;
     color:white;
     width: 350px;
@@ -129,4 +131,5 @@ h4
 {
     color: rgb(59, 151, 255);
     text-align: center;
+    font-family: Tahoma, Geneva, sans-serif
 }
