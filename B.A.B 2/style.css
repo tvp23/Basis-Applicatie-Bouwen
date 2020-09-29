@@ -1,0 +1,132 @@
+html
+{
+    background: rgb(34, 34, 34);
+    --highlightcolor: rgba(65, 64, 64, 0.616);
+    --shadowcolor: rgba(17, 17, 17, 0.61);
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    padding-top: 190px;
+    display: inline-block;
+    margin-left: none;
+    margin-right: none;
+    text-align: center;
+}
+
+.Signup
+{
+    font: bold 50px arial, sans-serif;
+    background-color: rgb(34, 34, 34);
+    color: rgba(14, 14, 14, 0.5);
+    text-shadow: 0.5px 0.5px 1px rgba(61, 61, 61, 0.5);
+}
+
+input.Username
+{
+    margin-top: 50px;
+    color:white;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(34, 34, 34);;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: inset 3px 3px 7px var(--shadowcolor),inset -3px -3px 5px var(--highlightcolor);
+    font-family: Tahoma, Geneva, sans-serif
+}
+input.Username:focus
+{
+    margin-top: 50px;
+    color:white;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(34, 34, 34);;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: inset 3px 3px 4px var(--shadowcolor),inset -3px -3px 2px var(--highlightcolor);
+    font-family: Tahoma, Geneva, sans-serif
+}
+
+input.Password
+{
+    margin-top: 20px;
+    color:white;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(34, 34, 34);;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: inset 3px 3px 7px var(--shadowcolor),inset -3px -3px 5px var(--highlightcolor);
+    font-family: Tahoma, Geneva, sans-serif
+
+}
+input.Password:focus
+{
+    margin-top: 20px;
+    color:white;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(34, 34, 34);;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: inset 3px 3px 4px var(--shadowcolor),inset -3px -3px 2px var(--highlightcolor);
+    font-family: Tahoma, Geneva, sans-serif
+
+}
+button.submit
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(34, 34, 34);;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 7px var(--highlightcolor), -3px -3px 7px var(--shadowcolor);
+}
+button.submit:hover
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgb(34, 34, 34);;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px var(--highlightcolor), -3px -3px 3px var(--shadowcolor);
+}
+
+.lock
+{   
+    margin-top: 5px;
+    margin-right: 13px;
+}
+
+p
+{
+    color:rgb(59, 151, 255);
+    display: inline;
+}
+
+h4
+{
+    color: rgb(59, 151, 255);
+    text-align: center;
+}
