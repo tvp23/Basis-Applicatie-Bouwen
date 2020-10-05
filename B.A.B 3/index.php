@@ -10,10 +10,10 @@
 <body>
 
     <form class=flexform id=flexform action="">
-        <input class=flex_item id=Name type="text">
-        <input class=flex_item id=LastName type="text">
-        <input class=flex_item id=Age type="text">
-        <input class=flex_item id=Place type="text">
+        <input class=flex_item id=Name type="text" placeholder="Name">
+        <input class=flex_item id=LastName type="text" placeholder="LastName">
+        <input class=flex_item id=Age type="text" placeholder="Age">
+        <input class=flex_item id=Place type="text" placeholder="Place">
         <input class=flex_item id=Submit type="submit">
     </form>
 
